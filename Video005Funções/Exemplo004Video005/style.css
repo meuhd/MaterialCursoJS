@@ -1,0 +1,87 @@
+/* Falta refatorar , criar variáveis para cores , fontes , etc.  */ 
+body{
+    background-color: #8ab4f1;
+}
+p{
+    color: #29223d; 
+    font-family: Poppins;  
+    font-size: 30px; 
+    color:rgb(62, 44, 139); 
+    font-size: 30px;
+
+}
+
+input{
+    font-family: Poppins;
+    font-size: 25px;  
+    background-color: rgb(248, 139, 212);
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(62, 44, 139); 
+    outline-color: #00b7ff;
+    
+
+}
+#inPrimeiraNota{
+   margin-bottom: 15px;
+}
+
+
+#segundaNota {
+    margin-top: -5px;
+ 
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 60px; 
+  
+    
+
+}
+
+#resposta{
+    font-size: 28px;
+    color: rgb(62, 44, 139); 
+}
+
+
+
+#container {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+    background-color: white;
+    height: 350px;
+    width: 500px;  
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 50px;
+    border-radius: 20px;
+   
+
+}
+
+#btCalcular {
+    background-color:rgb(248, 139, 212);
+    
+    border: none;
+    width: 200px;
+    height: 70px;
+    font-size: 22px;
+    color:rgb(62, 44, 139); 
+    border-radius: 10px;
+    
+
+}

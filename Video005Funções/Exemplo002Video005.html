@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Exemplo004Video005/style.css">
+    <title>Exemplo002Video005</title>
+   
+
+   
+</head> 
+<body>
+   <script>
+
+     function calcularMedia(){
+         // Obter a primeira nota 
+         let primeiraNota = Number (document.getElementById("inPrimeiraNota").value);
+
+        // Obter a segunda nota 
+         let segundaNota = Number (document.getElementById("inSegundaNota").value);
+
+        // Calculo da média 
+         let media = (primeiraNota + segundaNota) /2; 
+
+        // Expor resultado 
+         document.getElementById("resposta").innerHTML =("Média encontrada: " + media); 
+
+        //Limpar campos 
+         document.getElementById("inPrimeiraNota").value ="";
+         document.getElementById("inSegundaNota").value ="";
+
+
+     }
+
+    
+
+
+   </script>
+ 
+  
+    <div id ='container'>
+        <p> Primeira nota
+            <input type="text" id="inPrimeiraNota">
+        </p>
+        <p> Segunda nota
+            <input type="text" id="inSegundaNota">
+        </p>
+
+        <input type="button" value="Calcular Média" id="btCalcular" onclick="calcularMedia()" >
+
+        <pre id= resposta></pre>
+    </div>
+
+  
+
+    
+   
+   
+</body>
+</html>
