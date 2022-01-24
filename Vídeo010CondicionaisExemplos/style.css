@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rgb(0, 32, 32) ;
+}
+
+
+
+p, pre{
+    color:rgb(248, 134, 197);
+    font-size: 30px;
+}
+
+
+.calculaPesoIdeal
+{
+        position:absolute;
+        display: inline; 
+        grid-row-gap: 20px;
+      
+}
+
+input{
+    background-color: powderblue;
+    height:  50px;   
+    border:none;
+    border-radius: 10px;
+    font-size: 18pt;
+    color:rgb(248, 134, 197);
+    text-align: center;
+  
+
+}
+
+#btCalcula {
+    background-color: rgb(253, 94, 182);
+    color:powderblue;
+}
